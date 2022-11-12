@@ -37,6 +37,11 @@
            <widget class="QTableWidget" name="tableWidget">
             <column>
              <property name="text">
+              <string>id</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
               <string>File name</string>
              </property>
             </column>
@@ -74,7 +79,7 @@
             </property>
             <layout class="QGridLayout" name="gridLayout_2">
              <item row="0" column="0">
-              <widget class="QWidget" name="PlotWidget" native="true"/>
+              <widget class="MplWidget" name="PlotWidget" native="true"/>
              </item>
             </layout>
            </widget>
@@ -113,6 +118,14 @@
    </layout>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MplWidget</class>
+   <extends>QWidget</extends>
+   <header>mplwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>
