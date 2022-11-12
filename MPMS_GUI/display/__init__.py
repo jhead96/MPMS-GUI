@@ -1,1 +1,1 @@
-from .MPMS_gui_v0_1 import Ui_MainWindow
+from .MPMS_gui_v0_2 import Ui_MainWindow
