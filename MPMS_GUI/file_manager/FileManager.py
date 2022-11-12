@@ -1,4 +1,4 @@
-from Datafile import Datafile
+from .Datafile import Datafile
 
 class FileManager:
 
